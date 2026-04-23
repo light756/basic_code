@@ -11,7 +11,8 @@ public class ArrayDemo01 {
         //简写格式
         double[] arr1={1.4,1.2,1.3,1.45,1};
         for (double v : arr1) {
-            System.out.println(v);
+            //想个办法，按照1.4 1.2 1.3......这种格式输出
+            System.out.print(v+" ");
         }
     }
 }
