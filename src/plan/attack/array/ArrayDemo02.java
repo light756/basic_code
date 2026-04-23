@@ -11,5 +11,7 @@ public class ArrayDemo02 {
         for (int v : arr) {
             System.out.println(v);
         }
+        //我要获取数组长度
+        System.out.println(arr.length);
     }
 }
