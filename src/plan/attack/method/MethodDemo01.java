@@ -18,12 +18,12 @@ public class MethodDemo01 {
             }
         }
         for (int j : arr) {
-            System.out.println(j);
+            System.out.print(j+" ");
         }
     }
     public static boolean contains(int[] arr,int data){
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] == data){
+        for (int j : arr) {
+            if (j == data) {
                 return true;
             }
         }
